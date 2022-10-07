@@ -39,7 +39,7 @@
 
 //3. Write a JavaScript program that displays "Good Morning" if time is between 5AM-11:59 | "Good Afternoon" if time is between 12 - 16 | otherwise "Hey there"
 
-// let time = 0400
+// let time = 0200
 // if (time >=1200 && time <= 1600) {
 //   console.log("Good Afternoon")
 // }
@@ -69,8 +69,8 @@
 // console.log(letter)
 
 // Using fromCharCode() - make it readable for us :). You'll see!
-// let text = String.fromCharCode(84, 101, 100, 100, 121);
-// console.log(text)
+// let text1 = String.fromCharCode(84, 101, 100, 100, 121);
+// console.log(text1)
 
 // Take your first and last name and concat()
 // concat = ("Cody" + " Jennings")
@@ -81,15 +81,21 @@
 // console.log(str1.startsWith("I"))
 
 // Now use any variable with endsWith() and return false
-// const str1 = "I am a slow syntax learner but am making progress"
-// console.log(str1.startsWith("am"))
+// const str1 = "I am a slow syntax learner but am making progress";
+// console.log(str1.startsWith("am"));
+//finished up to this in class 10/07/2022
 
 // Finish the following sentence. Use includes() and return true.
-const ozgur = 'Once upon a time Ozgur looked up at the Moon, and he transformed into a Saiyan Great Ape'
+// const ozgur = 'Once upon a time Ozgur looked up at the Moon, and he transformed into a Saiyan Great Ape.';
+// const word = "Saiyan";
+// console.log(ozgur.includes("Saiyan"));
 
 
 // Help! I'm looking for my cow! Using indexOf() help Josh find his cow. What's the index of cow?
-const joshHadALittleLambOopsCow = "Josh lives in a farm. Josh was overwhelmed with coding. Josh is stressed out. Josh fed the chickens this morning. He watered his plants. He took his cow Betsy on a walk. Josh went home without Betsy. Josh went to bed that night, and realized he went home alone."
+//const joshHadALittleLambOopsCow = "Josh lives in a farm. Josh was overwhelmed with coding. Josh is stressed out. Josh fed the chickens this morning. He watered his plants. He took his cow Betsy on a walk. Josh went home without Betsy. Josh went to bed that night, and realized he went home alone.";
+// const searchTerm = "cow";
+// const indexOf = joshHadALittleLambOopsCow.indexOf(searchTerm);
+// console.log(`The ${searchTerm} has an index of ${indexOf} within this paragraph.`)
 
 ////////////////////////////////////////////////////////////////
 // Boolean:
